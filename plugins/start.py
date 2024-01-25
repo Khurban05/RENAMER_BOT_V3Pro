@@ -37,7 +37,7 @@ async def start(client,message):
             id = message.text.split(' ')[1]
         except:
             await message.reply_text(text =f"""
-👋 Salom {message.from_user.first_name } !
+👋 Salom 💯 {message.from_user.first_name } !
 
 📂 Men 4GB gacha bo'lgan Telegram fayllarni nomini o'zgartirib va videoga pechat qo'yib beradigan botman! 
 🎬 Menga Fayl/Video/Audio yuboring va uni qayta nomlang✍️
