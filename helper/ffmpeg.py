@@ -22,9 +22,9 @@ async def fix_thumb(thumb):
     except Exception as e:
         print(e)
         thumb = None 
-       
+
     return width, height, thumb
-    
+
 async def take_screen_shot(video_file, output_directory, ttl):
     out_put_file_name = f"{output_directory}/{time.time()}.jpg"
     file_genertor_command = [
